@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#gioi-thieu">Giới thiệu bản thân</a> |
+        <a href="#lien-he">Gửi thông tin và giao lưu cùng tôi</a>
+    </nav>
+
+    <div id="gioi-thieu">
+        <h1 style="color: #CAEDFF;">Giới thiệu bản thân</h1>
+
+        <div style="text-align: center;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHArI1trc0TxYNVZuWOgCcX3qHe9D4A4LUIf9NAZKsRM3l-ITqyH70fo&s=10"
+                alt="Ảnh đại diện" width="100" height="100">
+        </div>
+
+        <h2 style="color: #D8B4F8;">Thông tin cơ bản</h2>
+        <ul>
+            <li>Tên: Lê Nguyễn Hữu Hiếu</li>
+            <li>Năm sinh: 2006</li>
+            <li>Chuyên ngành: Hệ thống thông tin</li>
+        </ul>
+
+        <h2 style="color: #D8B4F8;">Sở thích</h2>
+
+        <h3 style="color: #FFC7EA;">Món ăn</h3>
+        <ol>
+            <li>Bánh Danish chong chóng</li>
+            <li>Mì cua</li>
+            <li>Thịt luộc chấm nước mắm</li>
+        </ol>
+
+        <h3 style="color: #FFC7EA;">Giải trí</h3>
+
+        <!-- Trò chơi và Bài hát yêu thích cùng cấp h4 -->
+        <h4>Trò chơi</h4>
+        <ul>
+            <li>League of Legends</li>
+            <li>Làm lốp</li>
+            <li>Vừa ăn vừa ngủ</li>
+        </ul>
+
+        <h4>Bài hát yêu thích</h4>
+        <ul>
+            <li>Mưa giữa bài_Nân,Thắng</li>
+            <li>Chiều nay không có mưa bay_Trung Quân</li>
+            <li>A Man Without Love_Engelbert Humperdinck</li>
+        </ul>
+
+        <h2 style="color: #D8B4F8;">Mục tiêu của bản thân</h2>
+
+        <table>
+            <tr>
+                <th>Mục tiêu</th>
+                <th>Thời hạn</th>
+                <th>Hoàn thành</th>
+            </tr>
+            <tr>
+                <td>Xài tiền Việt lương tiền đô</td>
+                <td>31/12/2099</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Intern có lương</td>
+                <td>30/06/2036</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Tự do tài chính</td>
+                <td>31/12/2099</td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="lien-he">
+        <h1 style="color: #CAEDFF;">Gửi thông tin và giao lưu cùng tôi</h1>
+
+        <form>
+            <p>
+                Họ và tên: <input type="text" name="hoten">
+            </p>
+            <p>
+                Email: <input type="email" name="email">
+            </p>
+            <p>
+                Tin nhắn:<br>
+                <textarea name="tinnhan" rows="5" cols="50"></textarea>
+            </p>
+            <p>
+                Giới tính:
+                <input type="radio" name="gioitinh" value="nam"> Nam
+                <input type="radio" name="gioitinh" value="nu"> Nữ
+            </p>
+            <p>
+                Sở thích:
+                <input type="checkbox" name="sothich" value="nghenhac"> Nghe nhạc
+                <input type="checkbox" name="sothich" value="boiloi"> Bơi lội
+                <input type="checkbox" name="sothich" value="bien"> Biển
+            </p>
+            <p>
+                Ngành:
+                <select name="nganh">
+                    <option value="khmt">Khoa học Máy tính</option>
+                    <option value="httt" selected>Hệ thống thông tin</option>
+                    <option value="cntt">Công nghệ thông tin</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" value="Gửi">
+            </p>
+        </form>
+    </div>
+
+    <footer>
+        <p>@2024 24520495 Lê Nguyễn Hữu Hiếu</p>
+    </footer>
+</body>
+
+</html>

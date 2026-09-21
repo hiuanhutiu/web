@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4 {
+    font-size: 24px;
+    -webkit-text-stroke: 1px black;
+}
+
+#gioi-thieu {
+    background-color: #F3FDE8;
+    padding: 15px;
+
+}
+
+
+#lien-he {
+    background-image: url(https://i.pinimg.com/736x/02/5c/b0/025cb088253fba6a2e6988498d6d5197.jpg);
+    background-repeat: repeat;
+    text-align: center;
+    padding: 15px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 5px 10px;
+}
+
+
+nav,
+footer {
+    background-color: #d4f2f4;
+    color: #0b0848;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #0b0848;
+    text-decoration: none;
+    font-weight: bold;
+}
