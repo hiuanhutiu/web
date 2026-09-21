@@ -1,3 +1,19 @@
+h1 {
+    color: #CAEDFF;
+}
+
+h2 {
+    color: #D8B4F8;
+}
+
+h3 {
+    color: #FFC7EA;
+}
+
+.anh-dai-dien {
+    text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -9,17 +25,14 @@ h4 {
 #gioi-thieu {
     background-color: #F3FDE8;
     padding: 15px;
-
 }
 
-
 #lien-he {
-    background-image: url(https://i.pinimg.com/736x/02/5c/b0/025cb088253fba6a2e6988498d6d5197.jpg);
+    background-image: url('https://i.pinimg.com/736x/02/5c/b0/025cb088253fba6a2e6988498d6d5197.jpg');
     background-repeat: repeat;
     text-align: center;
     padding: 15px;
 }
-
 
 table {
     border-collapse: collapse;
@@ -35,7 +48,6 @@ th,
 td {
     padding: 5px 10px;
 }
-
 
 nav,
 footer {
